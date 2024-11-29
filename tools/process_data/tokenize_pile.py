@@ -6,7 +6,7 @@ import random
 import torch
 import time
 import multiprocessing
-from utils import print_args, PAD_EOS_MODELS, BOS_MODELS
+from MiniPLM.utils import print_args, PAD_EOS_MODELS, BOS_MODELS
 from data_utils import ChunkedDatasetBuilder, best_fitting_dtype
 from arguments import add_data_args, add_runtime_args, add_hp_args, add_model_args, add_peft_args
 import argparse
