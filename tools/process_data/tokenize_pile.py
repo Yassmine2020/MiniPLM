@@ -136,6 +136,9 @@ def get_args():
     parser = add_peft_args(add_hp_args(add_model_args(
         add_data_args(add_runtime_args(parser)))))
     args = parser.parse_args()
+    args.model_path = 'Qwen/Qwen1.5-0.5B'
+    args.model_type = 'qwen'
+    args.base_path = '/content/MiniPLM'
 
     return args
 
@@ -163,7 +166,6 @@ def get_ent_sent_infos(args, tokenizer):
 def main():
     args = get_args()
     random.seed(args.seed)
-    args.model_path = 'Qwen/Qwen1.5-0.5B'
     output_path = args.save
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_path)
