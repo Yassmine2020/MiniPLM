@@ -143,6 +143,7 @@ def get_args():
     args.chunk_num_per_shard = 10  # Even smaller since we have only 10 commands
     args.max_shard_num = 1  # Single shard is enough
     args.max_length = 1025
+    args.shard_end = 1
 
     return args
 
@@ -244,6 +245,10 @@ def main():
         encoded_docs = pool.imap(encoder.encode, enumerate(fin), 20)
 
         for doc_tokens, doc_id, label, bytes_processed in encoded_docs:
+            print(f"DEBUG: Processing document {doc_id}")
+            print(f"DEBUG: Label: {label}")
+            print(f"DEBUG: Tokens length: {len(doc_tokens)}")
+            
             lid += 1
             log_bytes_processed += bytes_processed
             log_doc_proccessed += 1
@@ -251,9 +256,10 @@ def main():
                 writer = writers[label]
             else:
                 label_idx = domain_labels[label]
+                print(f"DEBUG: Creating writer for label {label} with index {label_idx}")
                 writer = Writer(args, output_path, tokenizer, builder, label_idx, end_sent_mask, rt_token_mask, dtype)
                 writers[label] = writer
-
+        
             writer.add_tokens(doc_tokens, lid)
             sid = sum([writers[k].sid for k in writers])
             padded_token_num = sum([writers[k].padded_token_num for k in writers])
