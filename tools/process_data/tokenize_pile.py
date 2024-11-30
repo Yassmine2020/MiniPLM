@@ -138,7 +138,6 @@ def get_args():
     args = parser.parse_args()
     args.model_path = 'Qwen/Qwen1.5-0.5B'
     args.model_type = 'qwen'
-    args.base_path = '/content/MiniPLM'
 
     return args
 
