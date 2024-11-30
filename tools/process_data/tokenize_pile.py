@@ -29,7 +29,7 @@ class Encoder(object):
 
     def initializer(self,):
         # Use Encoder class as a container for global data
-        self.args.model_path = 'Qwen/Qwen1.5-0.5B'
+        # self.args.model_path = 'Qwen/Qwen1.5-0.5B'
         Encoder.tokenizer = AutoTokenizer.from_pretrained(self.args.model_path)
 
         if self.args.model_type in PAD_EOS_MODELS:
