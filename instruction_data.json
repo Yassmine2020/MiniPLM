@@ -49,6 +49,356 @@
       "instruction": "Show detailed file information",
       "input": "I need to see file permissions and sizes",
       "response": "ls -l"
+    },
+{
+      "instruction": "List all files in the current directory",
+      "input": "I want to see the contents of my current folder",
+      "response": "ls"
+    },
+    {
+      "instruction": "Create a new directory named 'documents'",
+      "input": "I need a new folder for my documents",
+      "response": "mkdir documents"
+    },
+    {
+      "instruction": "Delete a file named 'temp.txt'",
+      "input": "Remove the temporary text file",
+      "response": "rm temp.txt"
+    },
+    {
+      "instruction": "Move file1.txt to the documents folder",
+      "input": "Transfer my text file to documents directory",
+      "response": "mv file1.txt documents/"
+    },
+    {
+      "instruction": "Copy the config file to backup folder",
+      "input": "I need to backup config.ini to the backup directory",
+      "response": "cp config.ini backup/"
+    },
+    {
+      "instruction": "Make a script executable",
+      "input": "I need to make script.sh executable for the user",
+      "response": "chmod u+x script.sh"
+    },
+    {
+      "instruction": "Remove an entire directory and its contents",
+      "input": "Delete the temporary folder and everything in it",
+      "response": "rm -rf temp/"
+    },
+    {
+      "instruction": "Show hidden files in the current directory",
+      "input": "I want to see all files, including hidden ones",
+      "response": "ls -a"
+    },
+    {
+      "instruction": "Create multiple directories at once",
+      "input": "Create folders for documents, downloads, and pictures",
+      "response": "mkdir documents downloads pictures"
+    },
+    {
+      "instruction": "Show detailed file information",
+      "input": "I need to see file permissions and sizes",
+      "response": "ls -l"
+    },
+{
+      "instruction": "List all files in the current directory",
+      "input": "I want to see the contents of my current folder",
+      "response": "ls"
+    },
+    {
+      "instruction": "Create a new directory named 'documents'",
+      "input": "I need a new folder for my documents",
+      "response": "mkdir documents"
+    },
+    {
+      "instruction": "Delete a file named 'temp.txt'",
+      "input": "Remove the temporary text file",
+      "response": "rm temp.txt"
+    },
+    {
+      "instruction": "Move file1.txt to the documents folder",
+      "input": "Transfer my text file to documents directory",
+      "response": "mv file1.txt documents/"
+    },
+    {
+      "instruction": "Copy the config file to backup folder",
+      "input": "I need to backup config.ini to the backup directory",
+      "response": "cp config.ini backup/"
+    },
+    {
+      "instruction": "Make a script executable",
+      "input": "I need to make script.sh executable for the user",
+      "response": "chmod u+x script.sh"
+    },
+    {
+      "instruction": "Remove an entire directory and its contents",
+      "input": "Delete the temporary folder and everything in it",
+      "response": "rm -rf temp/"
+    },
+    {
+      "instruction": "Show hidden files in the current directory",
+      "input": "I want to see all files, including hidden ones",
+      "response": "ls -a"
+    },
+    {
+      "instruction": "Create multiple directories at once",
+      "input": "Create folders for documents, downloads, and pictures",
+      "response": "mkdir documents downloads pictures"
+    },
+    {
+      "instruction": "Show detailed file information",
+      "input": "I need to see file permissions and sizes",
+      "response": "ls -l"
+    },
+{
+      "instruction": "List all files in the current directory",
+      "input": "I want to see the contents of my current folder",
+      "response": "ls"
+    },
+    {
+      "instruction": "Create a new directory named 'documents'",
+      "input": "I need a new folder for my documents",
+      "response": "mkdir documents"
+    },
+    {
+      "instruction": "Delete a file named 'temp.txt'",
+      "input": "Remove the temporary text file",
+      "response": "rm temp.txt"
+    },
+    {
+      "instruction": "Move file1.txt to the documents folder",
+      "input": "Transfer my text file to documents directory",
+      "response": "mv file1.txt documents/"
+    },
+    {
+      "instruction": "Copy the config file to backup folder",
+      "input": "I need to backup config.ini to the backup directory",
+      "response": "cp config.ini backup/"
+    },
+    {
+      "instruction": "Make a script executable",
+      "input": "I need to make script.sh executable for the user",
+      "response": "chmod u+x script.sh"
+    },
+    {
+      "instruction": "Remove an entire directory and its contents",
+      "input": "Delete the temporary folder and everything in it",
+      "response": "rm -rf temp/"
+    },
+    {
+      "instruction": "Show hidden files in the current directory",
+      "input": "I want to see all files, including hidden ones",
+      "response": "ls -a"
+    },
+    {
+      "instruction": "Create multiple directories at once",
+      "input": "Create folders for documents, downloads, and pictures",
+      "response": "mkdir documents downloads pictures"
+    },
+    {
+      "instruction": "Show detailed file information",
+      "input": "I need to see file permissions and sizes",
+      "response": "ls -l"
+    },
+{
+      "instruction": "List all files in the current directory",
+      "input": "I want to see the contents of my current folder",
+      "response": "ls"
+    },
+    {
+      "instruction": "Create a new directory named 'documents'",
+      "input": "I need a new folder for my documents",
+      "response": "mkdir documents"
+    },
+    {
+      "instruction": "Delete a file named 'temp.txt'",
+      "input": "Remove the temporary text file",
+      "response": "rm temp.txt"
+    },
+    {
+      "instruction": "Move file1.txt to the documents folder",
+      "input": "Transfer my text file to documents directory",
+      "response": "mv file1.txt documents/"
+    },
+    {
+      "instruction": "Copy the config file to backup folder",
+      "input": "I need to backup config.ini to the backup directory",
+      "response": "cp config.ini backup/"
+    },
+    {
+      "instruction": "Make a script executable",
+      "input": "I need to make script.sh executable for the user",
+      "response": "chmod u+x script.sh"
+    },
+    {
+      "instruction": "Remove an entire directory and its contents",
+      "input": "Delete the temporary folder and everything in it",
+      "response": "rm -rf temp/"
+    },
+    {
+      "instruction": "Show hidden files in the current directory",
+      "input": "I want to see all files, including hidden ones",
+      "response": "ls -a"
+    },
+    {
+      "instruction": "Create multiple directories at once",
+      "input": "Create folders for documents, downloads, and pictures",
+      "response": "mkdir documents downloads pictures"
+    },
+    {
+      "instruction": "Show detailed file information",
+      "input": "I need to see file permissions and sizes",
+      "response": "ls -l"
+    },
+{
+      "instruction": "List all files in the current directory",
+      "input": "I want to see the contents of my current folder",
+      "response": "ls"
+    },
+    {
+      "instruction": "Create a new directory named 'documents'",
+      "input": "I need a new folder for my documents",
+      "response": "mkdir documents"
+    },
+    {
+      "instruction": "Delete a file named 'temp.txt'",
+      "input": "Remove the temporary text file",
+      "response": "rm temp.txt"
+    },
+    {
+      "instruction": "Move file1.txt to the documents folder",
+      "input": "Transfer my text file to documents directory",
+      "response": "mv file1.txt documents/"
+    },
+    {
+      "instruction": "Copy the config file to backup folder",
+      "input": "I need to backup config.ini to the backup directory",
+      "response": "cp config.ini backup/"
+    },
+    {
+      "instruction": "Make a script executable",
+      "input": "I need to make script.sh executable for the user",
+      "response": "chmod u+x script.sh"
+    },
+    {
+      "instruction": "Remove an entire directory and its contents",
+      "input": "Delete the temporary folder and everything in it",
+      "response": "rm -rf temp/"
+    },
+    {
+      "instruction": "Show hidden files in the current directory",
+      "input": "I want to see all files, including hidden ones",
+      "response": "ls -a"
+    },
+    {
+      "instruction": "Create multiple directories at once",
+      "input": "Create folders for documents, downloads, and pictures",
+      "response": "mkdir documents downloads pictures"
+    },
+    {
+      "instruction": "Show detailed file information",
+      "input": "I need to see file permissions and sizes",
+      "response": "ls -l"
+    },
+{
+      "instruction": "List all files in the current directory",
+      "input": "I want to see the contents of my current folder",
+      "response": "ls"
+    },
+    {
+      "instruction": "Create a new directory named 'documents'",
+      "input": "I need a new folder for my documents",
+      "response": "mkdir documents"
+    },
+    {
+      "instruction": "Delete a file named 'temp.txt'",
+      "input": "Remove the temporary text file",
+      "response": "rm temp.txt"
+    },
+    {
+      "instruction": "Move file1.txt to the documents folder",
+      "input": "Transfer my text file to documents directory",
+      "response": "mv file1.txt documents/"
+    },
+    {
+      "instruction": "Copy the config file to backup folder",
+      "input": "I need to backup config.ini to the backup directory",
+      "response": "cp config.ini backup/"
+    },
+    {
+      "instruction": "Make a script executable",
+      "input": "I need to make script.sh executable for the user",
+      "response": "chmod u+x script.sh"
+    },
+    {
+      "instruction": "Remove an entire directory and its contents",
+      "input": "Delete the temporary folder and everything in it",
+      "response": "rm -rf temp/"
+    },
+    {
+      "instruction": "Show hidden files in the current directory",
+      "input": "I want to see all files, including hidden ones",
+      "response": "ls -a"
+    },
+    {
+      "instruction": "Create multiple directories at once",
+      "input": "Create folders for documents, downloads, and pictures",
+      "response": "mkdir documents downloads pictures"
+    },
+    {
+      "instruction": "Show detailed file information",
+      "input": "I need to see file permissions and sizes",
+      "response": "ls -l"
+    },
+{
+      "instruction": "List all files in the current directory",
+      "input": "I want to see the contents of my current folder",
+      "response": "ls"
+    },
+    {
+      "instruction": "Create a new directory named 'documents'",
+      "input": "I need a new folder for my documents",
+      "response": "mkdir documents"
+    },
+    {
+      "instruction": "Delete a file named 'temp.txt'",
+      "input": "Remove the temporary text file",
+      "response": "rm temp.txt"
+    },
+    {
+      "instruction": "Move file1.txt to the documents folder",
+      "input": "Transfer my text file to documents directory",
+      "response": "mv file1.txt documents/"
+    },
+    {
+      "instruction": "Copy the config file to backup folder",
+      "input": "I need to backup config.ini to the backup directory",
+      "response": "cp config.ini backup/"
+    },
+    {
+      "instruction": "Make a script executable",
+      "input": "I need to make script.sh executable for the user",
+      "response": "chmod u+x script.sh"
+    },
+    {
+      "instruction": "Remove an entire directory and its contents",
+      "input": "Delete the temporary folder and everything in it",
+      "response": "rm -rf temp/"
+    },
+    {
+      "instruction": "Show hidden files in the current directory",
+      "input": "I want to see all files, including hidden ones",
+      "response": "ls -a"
+    },
+    {
+      "instruction": "Create multiple directories at once",
+      "input": "Create folders for documents, downloads, and pictures",
+      "response": "mkdir documents downloads pictures"
+    },
+    {
+      "instruction": "Show detailed file information",
+      "input": "I need to see file permissions and sizes",
+      "response": "ls -l"
     }
   ]
 }
