@@ -163,6 +163,7 @@ def get_ent_sent_infos(args, tokenizer):
 def main():
     args = get_args()
     random.seed(args.seed)
+    args.model_path = 'Qwen/Qwen1.5-0.5B'
     output_path = args.save
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_path)
