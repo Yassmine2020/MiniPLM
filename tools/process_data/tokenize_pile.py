@@ -138,6 +138,11 @@ def get_args():
     args = parser.parse_args()
     args.model_path = 'Qwen/Qwen1.5-0.5B'
     args.model_type = 'qwen'
+    args.data_process_workers = 4
+    args.log_interval = 1
+    args.chunk_num_per_shard = 100
+    args.max_shard_num = 10
+    args.max_length = 1025
 
     return args
 
