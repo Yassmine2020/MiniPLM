@@ -3,15 +3,19 @@ from tqdm import tqdm
 import json
 
 def load_instruction_data(file_path):
-    """Load instruction data from JSON file and convert to dataset format"""
+    """
+    Load instruction data from JSON file and convert it to the expected dataset format.
+    Adds a 'meta' field to each entry to match the expected structure.
+    """
     with open(file_path, 'r') as f:
         raw_data = json.load(f)
 
-    # Convert to format matching datasets structure
+    # Format data with 'text' and 'meta'
     formatted_data = {
         'train': [
             {
-                'text': f"Task: {item['instruction']}\nInput: {item['input']}\nCommand: {item['response']}\n\n"
+                'text': f"Task: {item['instruction']}\nInput: {item['input']}\nCommand: {item['response']}\n\n",
+                'meta': {'pile_set_name': 'custom_instructions'}
             }
             for item in raw_data['data']
         ]
