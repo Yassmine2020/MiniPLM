@@ -15,5 +15,6 @@
     "PhilPapers": 13,
     "Enron Emails": 14,
     "Gutenberg (PG-19)": 15,
-    "Ubuntu IRC": 16
+    "Ubuntu IRC": 16,
+    "custom_instructions": 17 
 }
