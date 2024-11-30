@@ -3,24 +3,24 @@ import os
 from tqdm import tqdm
 import json
 
-def load_instruction_data(file_path):
-    """Load instruction data from JSON file and convert to dataset format"""
-    with open(file_path, 'r') as f:
-        raw_data = json.load(f)
+# def load_instruction_data(file_path):
+#     """Load instruction data from JSON file and convert to dataset format"""
+#     with open(file_path, 'r') as f:
+#         raw_data = json.load(f)
     
-    # Convert to format matching datasets structure
-    formatted_data = {
-        'train': [
-            {
-                'text': f"Task: {item['instruction']}\nInput: {item['input']}\nCommand: {item['response']}\n\n"
-            }
-            for item in raw_data['data']
-        ]
-    }
-    return formatted_data
+#     # Convert to format matching datasets structure
+#     formatted_data = {
+#         'train': [
+#             {
+#                 'text': f"Task: {item['instruction']}\nInput: {item['input']}\nCommand: {item['response']}\n\n"
+#             }
+#             for item in raw_data['data']
+#         ]
+#     }
+#     return formatted_data
 
-# data = datasets.load_dataset("monology/pile-uncopyrighted")
-# print(data)
+data = datasets.load_dataset("monology/pile-uncopyrighted")
+print(data)
 
 output_dir = "data/pile/"
 
